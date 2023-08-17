@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #ECE9FD;
+  padding: 3.75rem 1.44rem 4.13rem;
+  font-family: 'Epilogue', sans-serif;
+  max-width: 20.6rem;
+  margin: auto;
+  color: #090039;
+}
+main p:first-child{
+  color: #7158EF;
+  line-height: 2rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 1.06rem;
+}
+main h1{
+  font-size: 2.5rem;
+  font-weight : 800;
+  line-height: 3rem;
+  margin-bottom: 0.94rem;
+}
+main h1+p{
+  line-height: 2rem;
+  color: rgba(10,0,57,0.64);
+  margin-bottom: 2rem;
+}
+main a{
+  line-height: 2rem;
+  text-decoration: none;
+}
+main a:hover{
+  color: #7158EF;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+ul{
+  list-style: none;
+  margin-top: 4.5rem;
+}
+ul li + li{
+  margin-top: 2rem;
+}
+ul li span{
+  font-size: 4.5rem;
+  font-weight :800;
+  line-height: 5rem;
+  letter-spacing: -0.13rem;
+}
+ul li{
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+  max-width: 16.06rem;
+  display: flex;
+  align-items: center;
+}
+.one{
+  margin-right: 2.38rem;
+}
+.two{
+  margin-right: 1.63rem;
+}
+.three{
+  margin-right: 1.56rem;
+}
+@media screen and (min-width: 43.75rem){
+   body{
+    max-width: 100%;
+    padding: 5rem;
+   }
+  main{
+    display: flex;
+    justify-content: space-between;
+    gap: 6.25rem;
+    max-width: 63.81rem;
+    margin: auto;
+  }
+  main div{
+    max-width: 30.25rem;
+  }
+  ul li{
+    max-width: 100%;
+  }
+}
